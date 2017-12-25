@@ -1,0 +1,88 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+<<<<<<< HEAD
+    "name": "groo"
+=======
+    "name": "start-bootstrap"
+>>>>>>> chore: initial commit from @angular/cli
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+<<<<<<< HEAD
+        "styles.css",
+        "../node_modules/bootstrap/css/bootstrap.min.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css",
+        "../node_modules/datatables/dataTables.bootstrap4.css",
+        "../node_modules/css/sb-admin.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/jquery.min.js",
+        "../node_modules/bootstrap/js/bootstrap.bundle.min.js",
+        "../node_modules/jquery-easing/jquery.easing.min.js",
+        "../node_modules/chart.js/Chart.min.js",    
+        "../node_modules/datatables/jquery.dataTables.js",
+        "../node_modules/datatables/dataTables.bootstrap4.js",
+        "../node_modules/js/sb-admin.min.js",
+        "../node_modules/js/sb-admin-datatables.min.js",
+        "../node_modules/js/sb-admin-charts.min.js"
+      ],
+=======
+        "styles.css"
+      ],
+      "scripts": [],
+>>>>>>> chore: initial commit from @angular/cli
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "src/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> chore: initial commit from @angular/cli
